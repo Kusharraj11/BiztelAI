@@ -1,0 +1,257 @@
+[
+  {
+    "question": "What is the recommended coolant concentration for the TX-200 CNC turning centre?",
+    "history": false,
+    "seconds": 2.58,
+    "keyword_check": true,
+    "answer": "The recommended coolant concentration is 6 - 8 % [4].",
+    "sources": [
+      {
+        "file": "MNT-MAN-CNC-02_TX-200_Preventive_Maintenance.pdf",
+        "document": "MNT-MAN-CNC-02",
+        "revision": 2,
+        "page": 1,
+        "section": "3. Normal Operating Parameters",
+        "text": "1. Purpose\nThis manual defines the preventive maintenance (PM) activities, operating parameters and common alarms\n for the TX-200 CNC turning centres (machines CNC-04 to CNC-09) used on the shaft machining line.\n\n6. Common Alarms\nAlarm           Meaning                                 Operator action\n AL-101          Hydraulic pressure low                  Stop cycle. Check oil level and pressure gauge. Call maintenance if\n                                                         pressure stays below 3.5 MPa.\n\n3. Normal Operating Parameters\nParameter                                   Normal range                                   Check method\nParameter: Hydraulic system pressure; Normal range: 3.5 - 4.0 MPa (35 - 40 bar); Check method: Panel pressure gauge\nParameter: Chuck clamping pressure; Normal range: 2.0 - 2.5 MPa; Check method: Chuck pressure gauge\nParameter: Coolant concentration; Normal range: 6 - 8 %; Check method: Refractometer reading x 1.0 factor\nParameter: Coolant tank level; Normal range: Between MIN and MAX marks; Check method: Sight glass\nParameter: Way lube oil; Normal range: ISO VG 68; Check method: Visual, top-up as needed\nParameter: Spindle runout (at chuck face); Normal range: 0.005 mm max.; Check method: Dial indicator\nParameter: Compressed air supply; Normal range: 5.5 - 6.5 bar; Check method: FRL unit gauge",
+        "current": true,
+        "score": 0.577,
+        "id": 4,
+        "url": "/api/documents/MNT-MAN-CNC-02_TX-200_Preventive_Maintenance.pdf#page=1"
+      }
+    ],
+    "found": true
+  },
+  {
+    "question": "The machine is showing alarm AL-104. What does it mean and what should the operator do?",
+    "history": false,
+    "seconds": 3.52,
+    "keyword_check": true,
+    "answer": "AL-104 means Way lube oil level low. The operator should top up with ISO VG 68 oil to the MAX mark, then press RESET. Machine can continue after reset [2].",
+    "sources": [
+      {
+        "file": "MNT-MAN-CNC-02_TX-200_Preventive_Maintenance.pdf",
+        "document": "MNT-MAN-CNC-02",
+        "revision": 2,
+        "page": 2,
+        "section": "6. Common Alarms",
+        "text": "6. Common Alarms\nAlarm            Meaning                                    Operator action\n AL-104           Way lube oil level low                     Top up with ISO VG 68 oil to the MAX mark, then press RESET.\n                                                             Machine can continue after reset.\n AL-210           Chuck clamp not confirmed                  Do not start cycle. Check chuck pressure and part seating. Call\n                                                             maintenance if repeated.\n AL-305           Spindle overload                           Stop cycle. Check tool wear and cutting parameters. Inform shift\n                                                             supervisor.\n AL-412           Coolant level low                          Top up coolant mixed to 6 - 8 % concentration.",
+        "current": true,
+        "score": 0.733,
+        "id": 2,
+        "url": "/api/documents/MNT-MAN-CNC-02_TX-200_Preventive_Maintenance.pdf#page=2"
+      }
+    ],
+    "found": true
+  },
+  {
+    "question": "Who is allowed to remove a lockout lock from a machine?",
+    "history": false,
+    "seconds": 6.11,
+    "keyword_check": true,
+    "answer": "Each authorised person removes only their own lock [2]. If an authorised person has left the plant without removing their lock, the lock may be removed only through the procedure where the Shift Supervisor makes every reasonable effort to contact the lock owner, and if the owner cannot be reached, the Production Manager and the Safety Officer must both authorise removal [3]. The lock owner must be informed before they resume work on their next shift [4].",
+    "sources": [
+      {
+        "file": "SAF-SOP-003_Lockout_Tagout_Procedure.pdf",
+        "document": "SAF-SOP-003",
+        "revision": 5,
+        "page": 1,
+        "section": "5. Removing Locks",
+        "text": "4. Lockout Procedure\n1.  Inform all affected persons that the machine is being shut down for maintenance.\n  2.  Stop the machine using the normal stop sequence.\n  3.  Isolate all energy sources: main electrical isolator, compressed air valve, and hydraulic power unit.\n  4.  Apply your personal red lock and danger tag to each isolation point. Each authorised person working\n     on the machine applies their own lock. Use a multi-lock hasp when more than one person is involved.\n  5.  Release stored energy: bleed hydraulic pressure and accumulators until the gauge reads zero, vent\n     compressed air to 0 bar, and block any parts that can fall under gravity.\n  6.  Verify zero energy: try to start the machine from the control panel and confirm it does not start. Confirm\n     all pressure gauges read zero. Return controls to OFF.\n\n5. Removing Locks\n1.  Check that tools and materials are removed and guards are refitted.\n  2.  Confirm all persons are clear of the machine.\n  3.  Each authorised person removes only their own lock. Nobody may remove another person's lock.\n  4.  Inform affected persons that the machine is being restarted.\n\n6. Removal of a Lock When the Owner Is Absent\nIf an authorised person has left the plant without removing their lock, the lock may be removed only through\n this procedure:\n  1.  The Shift Supervisor makes every reasonable effort to contact the lock owner by phone.\n  2.  If the owner cannot be reached, the Production Manager and the Safety Officer must both authorise\n     removal.\n  3.  The machine is physically inspected to confirm it is safe to re-energise.",
+        "current": true,
+        "score": 0.687,
+        "id": 2,
+        "url": "/api/documents/SAF-SOP-003_Lockout_Tagout_Procedure.pdf#page=1"
+      },
+      {
+        "file": "SAF-SOP-003_Lockout_Tagout_Procedure.pdf",
+        "document": "SAF-SOP-003",
+        "revision": 5,
+        "page": 1,
+        "section": "6. Removal of a Lock When the Owner Is Absent",
+        "text": "4. Lockout Procedure\n1.  Inform all affected persons that the machine is being shut down for maintenance.\n  2.  Stop the machine using the normal stop sequence.\n  3.  Isolate all energy sources: main electrical isolator, compressed air valve, and hydraulic power unit.\n  4.  Apply your personal red lock and danger tag to each isolation point. Each authorised person working\n     on the machine applies their own lock. Use a multi-lock hasp when more than one person is involved.\n  5.  Release stored energy: bleed hydraulic pressure and accumulators until the gauge reads zero, vent\n     compressed air to 0 bar, and block any parts that can fall under gravity.\n  6.  Verify zero energy: try to start the machine from the control panel and confirm it does not start. Confirm\n     all pressure gauges read zero. Return controls to OFF.\n\n5. Removing Locks\n1.  Check that tools and materials are removed and guards are refitted.\n  2.  Confirm all persons are clear of the machine.\n  3.  Each authorised person removes only their own lock. Nobody may remove another person's lock.\n  4.  Inform affected persons that the machine is being restarted.\n\n6. Removal of a Lock When the Owner Is Absent\nIf an authorised person has left the plant without removing their lock, the lock may be removed only through\n this procedure:\n  1.  The Shift Supervisor makes every reasonable effort to contact the lock owner by phone.\n  2.  If the owner cannot be reached, the Production Manager and the Safety Officer must both authorise\n     removal.\n  3.  The machine is physically inspected to confirm it is safe to re-energise.",
+        "current": true,
+        "score": 0.667,
+        "id": 3,
+        "url": "/api/documents/SAF-SOP-003_Lockout_Tagout_Procedure.pdf#page=1"
+      },
+      {
+        "file": "SAF-SOP-003_Lockout_Tagout_Procedure.pdf",
+        "document": "SAF-SOP-003",
+        "revision": 5,
+        "page": 2,
+        "section": "6. Removal of a Lock When the Owner Is Absent",
+        "text": "6. Removal of a Lock When the Owner Is Absent\n4.  The removal is recorded on form SF-12 Lock Removal Record.\n  5.  The lock owner must be informed before they resume work on their next shift.",
+        "current": true,
+        "score": 0.592,
+        "id": 4,
+        "url": "/api/documents/SAF-SOP-003_Lockout_Tagout_Procedure.pdf#page=2"
+      }
+    ],
+    "found": true
+  },
+  {
+    "question": "What is the outer diameter tolerance for the BH-220 bearing housing?",
+    "history": false,
+    "seconds": 2.54,
+    "keyword_check": true,
+    "answer": "The outer diameter tolerance is +/- 0.050 mm [1].",
+    "sources": [
+      {
+        "file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "document": "QC-SOP-014",
+        "revision": 4,
+        "page": 2,
+        "section": "6. Inspection Dimensions - BH-220 Bearing Housing (Machined, from",
+        "text": "6. Inspection Dimensions - BH-220 Bearing Housing (Machined, from\nsub-contractor)\n\n All values in millimetres. Dimensions marked CMM must be checked on the coordinate measuring machine.\n\n Characteristic                            Nominal           Tolerance                  Method                     Class\nCharacteristic: Bore diameter; Nominal: 52.000; Tolerance: +0.030 / -0.000; Method: CMM; Class: Critical\nCharacteristic: Outer diameter; Nominal: 90.000; Tolerance: +/- 0.050; Method: Digital caliper; Class: Major\nCharacteristic: Overall height; Nominal: 38.00; Tolerance: +/- 0.10; Method: Digital caliper; Class: Major\nCharacteristic: Mounting hole PCD; Nominal: 72.00; Tolerance: +/- 0.05; Method: CMM; Class: Critical\nCharacteristic: Mounting hole diameter (4x); Nominal: 9.00; Tolerance: +0.20 / -0.00; Method: Pin gauge; Class: Major\nCharacteristic: Bore concentricity to OD; Nominal: -; Tolerance: 0.02 max.; Method: CMM; Class: Critical\n\n5. Procedure\n1.  Stores Executive places the received lot in the Incoming Inspection Area and raises an inspection request\n     in the QMS app.\n  2.  QC Inspector checks that the supplier's Material Test Certificate (MTC) is attached. The MTC is\n     mandatory. If it is missing, the lot is put on HOLD and must not be inspected or accepted until the MTC is\n     received.\n  3.  Draw samples at random as per the sampling plan in Section 4.\n  4.  Perform visual inspection for rust, dents, cracks and burrs.\n  5.  Perform dimensional inspection using a calibrated digital caliper. Dimensions of BH-220 housings marked\n     CMM in Section 6 must be checked on the CMM.\n  6.  Record results in the QMS app using digital form QF-07A. Paper form QF-07 is no longer used.\n  7.  Accepted material is tagged with a GREEN tag and moved to stores.\n  8.  Rejected material is tagged with a RED tag and moved to Quarantine Cage Q1, Stores Bay 3. The cage\n     is locked; the key is held by the Shift QC Supervisor.\n  9.  The Shift QC Supervisor must inform the SQE within 4 hours of rejection. The SQE raises a Supplier\n     Corrective Action Request (SCAR).",
+        "current": true,
+        "score": 0.824,
+        "id": 1,
+        "url": "/api/documents/QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf#page=2"
+      }
+    ],
+    "found": true
+  },
+  {
+    "question": "How often should spindle runout be checked, and who does it?",
+    "history": false,
+    "seconds": 2.05,
+    "keyword_check": true,
+    "answer": "Monthly, by Maintenance technician [1].",
+    "sources": [
+      {
+        "file": "MNT-MAN-CNC-02_TX-200_Preventive_Maintenance.pdf",
+        "document": "MNT-MAN-CNC-02",
+        "revision": 2,
+        "page": 1,
+        "section": "4. Preventive Maintenance Schedule",
+        "text": "4. Preventive Maintenance Schedule\nFrequency                 Activity                                                                             Done by\n Daily (start of shift)    Check hydraulic pressure, coolant level, way lube level, air pressure;               Operator\n                           clean chips from slideways\n Weekly                    Check coolant concentration; clean coolant tank filter; check chuck jaw              Operator\n                           wear\n Monthly                   Check spindle runout; inspect hydraulic hoses for leaks or cracks; clean             Maintenance\n                           electrical cabinet fan filter                                                        technician\n Quarterly                 Replace hydraulic return filter; check turret alignment; check backlash on           Maintenance\n                           X and Z axes                                                                         technician\n Yearly                    Replace hydraulic oil (ISO VG 46); full geometric accuracy check;                    Maintenance\n                           replace coolant completely                                                           engineer\n\n6. Common Alarms\nAlarm           Meaning                                 Operator action\n AL-101          Hydraulic pressure low                  Stop cycle. Check oil level and pressure gauge. Call maintenance if\n                                                         pressure stays below 3.5 MPa.\n\n3. Normal Operating Parameters\nParameter                                   Normal range                                   Check method\nParameter: Hydraulic system pressure; Normal range: 3.5 - 4.0 MPa (35 - 40 bar); Check method: Panel pressure gauge\nParameter: Chuck clamping pressure; Normal range: 2.0 - 2.5 MPa; Check method: Chuck pressure gauge\nParameter: Coolant concentration; Normal range: 6 - 8 %; Check method: Refractometer reading x 1.0 factor\nParameter: Coolant tank level; Normal range: Between MIN and MAX marks; Check method: Sight glass\nParameter: Way lube oil; Normal range: ISO VG 68; Check method: Visual, top-up as needed\nParameter: Spindle runout (at chuck face); Normal range: 0.005 mm max.; Check method: Dial indicator\nParameter: Compressed air supply; Normal range: 5.5 - 6.5 bar; Check method: FRL unit gauge",
+        "current": true,
+        "score": 0.569,
+        "id": 1,
+        "url": "/api/documents/MNT-MAN-CNC-02_TX-200_Preventive_Maintenance.pdf#page=1"
+      }
+    ],
+    "found": true
+  },
+  {
+    "question": "For a lot of 600 pieces with two minor defects and no other defects, how many samples are required and is it accepted?",
+    "history": false,
+    "seconds": 3.87,
+    "keyword_check": true,
+    "answer": "For a lot of 600 pieces, 32 samples are required. The lot is rejected because there are 2 minor defects, which exceeds the acceptable limit of 1 or fewer minor defects [1].",
+    "sources": [
+      {
+        "file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "document": "QC-SOP-014",
+        "revision": 4,
+        "page": 1,
+        "section": "4. Sampling Plan",
+        "text": "4. Sampling Plan\nDefects are classified as follows:\n  -  Critical: a defect that can cause a safety risk or failure of the part, e.g. crack, wrong material grade, or a\n     dimension out of tolerance on a characteristic marked Critical.\n  -  Major: a defect that affects fit or function but is not critical, e.g. deep dent, damaged thread, or a\n     dimension out of tolerance on a characteristic marked Major.\n  -  Minor: a cosmetic defect that does not affect fit or function, e.g. light surface marks or light surface rust\n     that can be removed by cleaning.\n The number of samples depends on the lot size. Minor defects are allowed only as shown below.\n\n Lot size (pieces)              Samples to inspect         Accept if minor defects are              Reject if minor defects are\nLot size (pieces): 2 - 5; Samples to inspect: All pieces; Accept if minor defects are: 0; Reject if minor defects are: 1 or more\nLot size (pieces): 6 - 90; Samples to inspect: 5; Accept if minor defects are: 0; Reject if minor defects are: 1 or more\nLot size (pieces): 91 - 500; Samples to inspect: 13; Accept if minor defects are: 0; Reject if minor defects are: 1 or more\nLot size (pieces): 501 - 3,200; Samples to inspect: 32; Accept if minor defects are: 1 or fewer; Reject if minor defects are: 2 or more\nLot size (pieces): Above 3,200; Samples to inspect: 50; Accept if minor defects are: 2 or fewer; Reject if minor defects are: 3 or more\n Any critical defect in any sample: the complete lot is rejected and returned to the supplier. Sorting is not\n allowed.\n Any major defect in any sample: the complete lot is rejected. The SQE may decide to have the lot 100%\n sorted at the supplier's cost instead of returning it.",
+        "current": true,
+        "score": 0.705,
+        "id": 1,
+        "url": "/api/documents/QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf#page=1"
+      }
+    ],
+    "found": true
+  },
+  {
+    "question": "Can we inspect or accept a lot when the supplier MTC is missing?",
+    "history": false,
+    "seconds": 3.02,
+    "keyword_check": true,
+    "answer": "No, the lot must be put on HOLD and must not be inspected or accepted until the MTC is received [1].",
+    "sources": [
+      {
+        "file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "document": "QC-SOP-014",
+        "revision": 4,
+        "page": 2,
+        "section": "5. Procedure",
+        "text": "5. Procedure\n1.  Stores Executive places the received lot in the Incoming Inspection Area and raises an inspection request\n     in the QMS app.\n  2.  QC Inspector checks that the supplier's Material Test Certificate (MTC) is attached. The MTC is\n     mandatory. If it is missing, the lot is put on HOLD and must not be inspected or accepted until the MTC is\n     received.\n  3.  Draw samples at random as per the sampling plan in Section 4.\n  4.  Perform visual inspection for rust, dents, cracks and burrs.\n  5.  Perform dimensional inspection using a calibrated digital caliper. Dimensions of BH-220 housings marked\n     CMM in Section 6 must be checked on the CMM.\n  6.  Record results in the QMS app using digital form QF-07A. Paper form QF-07 is no longer used.\n  7.  Accepted material is tagged with a GREEN tag and moved to stores.\n  8.  Rejected material is tagged with a RED tag and moved to Quarantine Cage Q1, Stores Bay 3. The cage\n     is locked; the key is held by the Shift QC Supervisor.\n  9.  The Shift QC Supervisor must inform the SQE within 4 hours of rejection. The SQE raises a Supplier\n     Corrective Action Request (SCAR).\n\n7. Records\n-  QF-07A Incoming Inspection Report (digital, in QMS app) - retained for 5 years.\n  -  Supplier MTCs - scanned and attached to the QF-07A record.",
+        "current": true,
+        "score": 0.669,
+        "id": 1,
+        "url": "/api/documents/QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf#page=2"
+      }
+    ],
+    "found": true
+  },
+  {
+    "question": "Where should rejected material go, who holds the key, and how soon must SQE be informed?",
+    "history": false,
+    "seconds": 3.9,
+    "keyword_check": true,
+    "answer": "Rejected material is tagged with a RED tag and moved to Quarantine Cage Q1, Stores Bay 3. The key is held by the Shift QC Supervisor. The Shift QC Supervisor must inform the SQE within 4 hours of rejection [1].",
+    "sources": [
+      {
+        "file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "document": "QC-SOP-014",
+        "revision": 4,
+        "page": 2,
+        "section": "5. Procedure",
+        "text": "5. Procedure\n1.  Stores Executive places the received lot in the Incoming Inspection Area and raises an inspection request\n     in the QMS app.\n  2.  QC Inspector checks that the supplier's Material Test Certificate (MTC) is attached. The MTC is\n     mandatory. If it is missing, the lot is put on HOLD and must not be inspected or accepted until the MTC is\n     received.\n  3.  Draw samples at random as per the sampling plan in Section 4.\n  4.  Perform visual inspection for rust, dents, cracks and burrs.\n  5.  Perform dimensional inspection using a calibrated digital caliper. Dimensions of BH-220 housings marked\n     CMM in Section 6 must be checked on the CMM.\n  6.  Record results in the QMS app using digital form QF-07A. Paper form QF-07 is no longer used.\n  7.  Accepted material is tagged with a GREEN tag and moved to stores.\n  8.  Rejected material is tagged with a RED tag and moved to Quarantine Cage Q1, Stores Bay 3. The cage\n     is locked; the key is held by the Shift QC Supervisor.\n  9.  The Shift QC Supervisor must inform the SQE within 4 hours of rejection. The SQE raises a Supplier\n     Corrective Action Request (SCAR).",
+        "current": true,
+        "score": 0.645,
+        "id": 1,
+        "url": "/api/documents/QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf#page=2"
+      }
+    ],
+    "found": true
+  },
+  {
+    "question": "Compare Rev 03 and Rev 04: what changed in incoming inspection record forms and retention?",
+    "history": true,
+    "seconds": 3.81,
+    "keyword_check": true,
+    "answer": "In Rev 03, the incoming inspection report was paper-based and retained for 2 years [4]. In Rev 04, the report is digital (QF-07A) and retained for 5 years [3].",
+    "sources": [
+      {
+        "file": "QC-SOP-014_Rev03_Incoming_Material_Inspection.pdf",
+        "document": "QC-SOP-014",
+        "revision": 3,
+        "page": 1,
+        "section": "5. Records",
+        "text": "6. Revision History\nRev         Date                    Change\n 01          10-Jan-2019             First issue\n 02          05-Aug-2021             Added visual inspection criteria\n 03          15-Mar-2023             Changed sample size to 5 for all lots\n\n5. Records\n-  QF-07 Incoming Inspection Report (paper) - retained for 2 years.",
+        "current": false,
+        "score": 0.616,
+        "id": 4,
+        "url": "/api/documents/QC-SOP-014_Rev03_Incoming_Material_Inspection.pdf#page=1"
+      },
+      {
+        "file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "document": "QC-SOP-014",
+        "revision": 4,
+        "page": 2,
+        "section": "7. Records",
+        "text": "8. Revision History\nRev         Date                    Change\n 01          10-Jan-2019             First issue\n 02          05-Aug-2021             Added visual inspection criteria\n 03          15-Mar-2023             Changed sample size to 5 for all lots\n 04          01-Jul-2026             Supersedes Rev 03. Lot-size based sampling plan; MTC made mandatory; quarantine\n                                     moved to Cage Q1; digital form QF-07A; 4-hour SQE escalation; BH-220 critical\n                                     dimensions added.\n\n7. Records\n-  QF-07A Incoming Inspection Report (digital, in QMS app) - retained for 5 years.\n  -  Supplier MTCs - scanned and attached to the QF-07A record.",
+        "current": true,
+        "score": 0.616,
+        "id": 3,
+        "url": "/api/documents/QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf#page=2"
+      },
+      {
+        "file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "document": "QC-SOP-014",
+        "revision": 4,
+        "page": 2,
+        "section": "8. Revision History",
+        "text": "8. Revision History\nRev         Date                    Change\n 01          10-Jan-2019             First issue\n 02          05-Aug-2021             Added visual inspection criteria\n 03          15-Mar-2023             Changed sample size to 5 for all lots\n 04          01-Jul-2026             Supersedes Rev 03. Lot-size based sampling plan; MTC made mandatory; quarantine\n                                     moved to Cage Q1; digital form QF-07A; 4-hour SQE escalation; BH-220 critical\n                                     dimensions added.\n\n7. Records\n-  QF-07A Incoming Inspection Report (digital, in QMS app) - retained for 5 years.\n  -  Supplier MTCs - scanned and attached to the QF-07A record.",
+        "current": true,
+        "score": 0.63,
+        "id": 2,
+        "url": "/api/documents/QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf#page=2"
+      }
+    ],
+    "found": true
+  },
+  {
+    "question": "What is the recommended spindle bearing replacement interval in hours for the TX-200?",
+    "history": false,
+    "seconds": 1.73,
+    "keyword_check": true,
+    "answer": "I couldn't find an answer in the provided documents.",
+    "sources": [],
+    "found": false
+  }
+]
