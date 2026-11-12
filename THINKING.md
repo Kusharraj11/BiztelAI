@@ -20,17 +20,14 @@ There are possible issues that might occur: the question may be formulated incor
 
 ## AI challenge
 
-I requested the local Ollama (Qwen3 4B) to critique the journey as a skeptical shop floor supervisor and product manager.
 
-**My prompt:** “Be a skeptical shop floor supervisor and product manager. Critique the AI-assisted journey.” The following aspects were suggested: mobile connectivity issues, source links trust, ambiguous questions, safety issues, revision and connectivity problems.
+Firstly, I prompted AI what I want from my application: FastAPI server, React page, local Ollama, and answers based on provided PDFs. I told it to look through documents before deciding to use the RAG method and make things simple.
 
-**Selected excerpts from response:** “Mobile connectivity issues,” “Ambiguous questions leading to safety mistakes,” “Source links must prove authenticity of documents” and “Fixed hard-coded safety overrides.”
+When developing my application, AI noted that there were contradictions in the revisions in the PDFs. Furthermore, testing revealed that the first model could not interpret the sampling tables correctly, while full-page retrieval was full of unnecessary data. Following this analysis, I replaced the model, used section retrieval, and applied revision filtering.
 
-I agree with the necessity to have working PDF links, revision status, and meaningful feedback for any failure for a supervisor. I looked at the source links and tried out the app on my phone using the same Wi-Fi connection. I will also provide clarification of any ambiguous questions.
+Later on, I prompted my local Ollama to analyze the user journey I have come up with as an overly cautious product manager and supervisor. It questioned connectivity, ambiguous questions, and trust in source links. I agreed with these claims but disagreed with the idea of adding safety overrides without verifying them with the customer.
 
-I disagree about the need to include any safety procedures or escalations of timing which is not in the documents. These requirements must be provided by the customer. Several of the functions had already been created prior to the formal critique. so I am not claiming the critique caused all the earlier changes.
-
-Development also saw issues arise regarding the full-page retrieval method. From testing, I discovered that this added too much irrelevant information to the small model. In order to fix this problem, I decided to implement sectioning, making sure to keep sections which extended on another page intact.
+This approach helped me concentrate on credible sources and current procedures.
 
 ## The improvement I added, and why
 
